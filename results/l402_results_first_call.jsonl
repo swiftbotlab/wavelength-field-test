@@ -1,0 +1,2 @@
+{"ts": "2026-10-27T12:03:00.125Z", "endpoint": "ipgeo", "url": "https://api.lightningenable.com/l402/proxy/ip-geolocation-813d/lookup?ip=8.8.8.8", "step": "retry", "http": 200, "ms_402": 1883, "price_sat": 2.0, "macaroon": "MDAyZGxvY2...", "invoice": "lnbc20n1p4wpyh...", "rail": null, "ms_pay": 14275, "fee_sat": null, "result": "ok 598 bytes", "ms_200": 3084, "ms_total": 19244, "preimage": "f5b0a6f708..."}
+{"ts": "2026-10-27T12:03:01.923Z", "endpoint": "ipgeo", "step": "token_reuse_1", "http": 200, "ms_200": 1795, "price_sat": 0, "result": "ok 597 bytes"}

@@ -1,0 +1,33 @@
+{
+  "invoice": "lnbc50u1p4wpq4lp...",
+  "entry": {
+    "id": "bf44f1c18404b69369e2f660f28b734e86822ec4a0a567f4854c5d0017e2094d",
+    "kind": "ENTRY_KIND_RECV",
+    "status": "ENTRY_STATUS_PENDING",
+    "amount_sat": "5000",
+    "fee_sat": "0",
+    "counterparty": "",
+    "created_at_unix": "1793098431",
+    "updated_at_unix": "1793098431",
+    "note": "field test limit 5000",
+    "failure_reason": "",
+    "request": {
+      "lightning_invoice": {
+        "invoice": "lnbc50u1p4wpq4lp...",
+        "payment_hash": "bf44f1c18404b69369e2f660f28b734e86822ec4a0a567f4854c5d0017e2094d"
+      }
+    },
+    "progress": {
+      "phase": "WALLET_ENTRY_PHASE_WAITING_FOR_PAYMENT",
+      "phase_label": "waiting_for_payment",
+      "payment_hash": "bf44f1c18404b69369e2f660f28b734e86822ec4a0a567f4854c5d0017e2094d",
+      "txid": "",
+      "confirmation_height": 0,
+      "vtxo_outpoint": "",
+      "preimage": "",
+      "waiting_reason": "",
+      "batch_window": null
+    }
+  },
+  "credit_receive": null
+}

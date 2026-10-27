@@ -1,0 +1,8 @@
+{
+  "error": {
+    "code": "FAILED_PRECONDITION",
+    "message": "amount exceeds the operator's maximum VTXO size: receive of 0.00300000 BTC exceeds the per-VTXO maximum of 0.00050000 BTC",
+    "details": "recv invoice",
+    "retryable": false
+  }
+}

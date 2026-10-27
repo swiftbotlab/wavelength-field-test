@@ -1,0 +1,23 @@
+{"dry_run":true,"preview":{
+  "send_intent_id": "efa848dd2dcc02228b1faba9f928972c",
+  "amount_sat": "5",
+  "expected_fee_sat": "2",
+  "fee_known": true,
+  "expected_total_outflow_sat": "1000",
+  "total_outflow_known": true,
+  "rail": "SEND_RAIL_CREDIT",
+  "quote_status": "SEND_QUOTE_STATUS_COMPLETE",
+  "destination_summary": "lnbc50n1p4wpp9zpp59c6087s9yzmqf4",
+  "invoice_description": "API access: Currency Exchange - rates",
+  "payment_hash": "2e34f3fa0520b604d7a8d5bb4a8709e258fedeaad0381d1e2994e1c9ea176dc0",
+  "expires_at_unix": "1793099533",
+  "selected_outpoints": [],
+  "warning": "credit shortfall requires 1000 sat top-up",
+  "credit_preview": {
+    "must_use_credit": true,
+    "credit_applied_sat": "0",
+    "credit_shortfall_sat": "7",
+    "credit_topup_sat": "1000",
+    "ark_funding_sat": "0"
+  }
+}}
