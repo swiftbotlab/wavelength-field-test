@@ -1,0 +1,8 @@
+{
+  "error": {
+    "code": "INVALID_ARGUMENT",
+    "message": "quote in-ark swap: receive intent expired",
+    "details": "prepare send: quote pay: quote pay swap: QuoteInSwap RPC",
+    "retryable": false
+  }
+}

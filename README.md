@@ -4,13 +4,14 @@ Ref: KB-2410-09
 
 Raw logs and driver scripts from a first-hand field test: an agent paying for APIs over Lightning with **Wavelength v0.2.0 on Bitcoin mainnet** (L402), compared with **x402** (USDC on Base) on the same kind of call. Run on 2026-10-27/28 UTC by Swift Bot Labs.
 
-Full write-up: link added here when published. Proof of the working mainnet account: [PROOF.md](PROOF.md).
+Full write-up: https://dev.to/swiftbotlab/ref-kb-2410-09-an-agent-paid-real-apis-over-lightning-wavelength-mainnet-vs-x402-on-base-5hfl Proof of the working mainnet account: [PROOF.md](PROOF.md).
 
 ## What is here
 
 | path | what |
 |---|---|
 | `l402_run.py` | headless L402 driver: GET -> 402 -> decode the BOLT-11 amount locally -> `wavecli send` -> retry with `Authorization: L402 <macaroon>:<preimage>`; per-call and per-session sat caps; logs every step |
+| `recv_test.py` | receive-side test between two of our own Wavelength wallets (invoice -> pay -> wait until the receiver can spend) |
 | `x402_run.py` | x402 v2 payer for the same kind of call: reads `accepts`, signs one EIP-3009 `TransferWithAuthorization` locally, retries with `PAYMENT-SIGNATURE` |
 | `results/l402_results.csv` | one row per step (challenge / pay / retry / token reuse): price, fee, rail, timings, result |
 | `results/x402_results.csv` | one row per paid call with the Base tx hash |
